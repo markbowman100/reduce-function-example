@@ -17,3 +17,5 @@ arr.reduce((accumulator, currentValue, currentIndex, originalArray) => {
     accumulator.push(JSON.parse(JSON.stringify(currentValue)));
   }
 }, result);
+
+console.log(result);
